@@ -1,0 +1,5 @@
+cat <<EOF > requirements.txt
+openai>=0.27.0
+astroid
+colorama
+EOF
