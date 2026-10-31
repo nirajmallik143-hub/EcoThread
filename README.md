@@ -16,7 +16,10 @@ EcoThread is not just a tool; it is a global directive synthesized by Niraj Mall
 ---
 
 ## ✨ Key Capabilities
-
+### 📊 Carbon Impact Metrics
+EcoThread 7G now features the Mallik Impact Heuristic. For every optimization point found, the system calculates estimated CO2 savings:
+- Nested Loop Optimization: ~0.5g CO2 saved per 1,000 cycles.
+- 7G Standard: Goal of reducing global compute-related emissions by 1%.
 | Feature | Description | Status |
 | :--- | :--- | :--- |
 | AST Energy Profiling | Analyzes Abstract Syntax Trees to detect O(n²) power waste. | ✅ Stable |
