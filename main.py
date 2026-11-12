@@ -1,4 +1,4 @@
---- Analyzing: example_bad.py ---
+python main.py analyze bad.py
 Heat Zone Found: Nested Loop Line 4-5
 Complexity: O(n²)
 Estimated Cycles: 10,000
