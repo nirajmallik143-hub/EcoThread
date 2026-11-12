@@ -2,113 +2,126 @@
 
 # 🌿 ECOTHREAD: THE 7G CARBON-AWARE OPTIMIZER
 ### *A Mallik Group Initiative for Humanity Nepal*
-<p><b>"To save humanity, we must first optimize the tools humanity builds."</b> — <i>Niraj Mallik</i></p>
+
+**Build lighter software. Keep people at the center.**
 
 [![Python](https://img.shields.io/badge/Python-100%25-blue.svg)](https://python.org)
-[![7G Architecture](https://img.shields.io/badge/Architecture-7G_Mallik-emerald.svg)](https://github.com/nirajmallik143-hub/EcoThread)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Status: Active](https://img.shields.io/badge/Status-Stable-success.svg)](https://github.com/nirajmallik143-hub/EcoThread)
 
 </div>
 
 ---
 
-## 🧊 3D System Architecture (Multi-Layered Stack)
+## 🌍 Why EcoThread puts humanity first
 
-EcoThread operates across **distinct depth layers**, transforming raw, high-energy Python code into hyper-efficient green software through a simulated quantum-level heuristic pipeline.
+Climate and environmental risks affect people in every region, though the challenges and needs differ from place to place. In Nepal, communities can face severe monsoon rainfall, floods, and landslides. In the UAE, intense rainfall and flash flooding can also disrupt homes, roads, and essential services. These events are not just numbers or engineering problems: they affect people, families, and the communities that support them.
 
-```
-       [ 🌐 LAYER 5: CI/CD "GREEN-GATE" ]  --> Automated GitHub Actions workflow (.github/workflows/main.yml)
-              │
-       [ 📊 LAYER 4: IMPACT METRICS ]      --> Mallik Impact Heuristic & Carbon Credits API
-              │
-       [ 🧠 LAYER 3: 7G AI REFACTOR ENGINE ] --> Context-aware rewriting (`engine/RefactorEngine.py`)
-              │
-       [ ⚡ LAYER 2: AST ENERGY PROFILING ]  --> O(n²) power waste & "Heat Zone" detection (`ecothread.py`)
-              │
-       [ 💻 LAYER 1: CORE COMMAND PROCESSOR ] --> CLI Orchestration (`main.py`)
-```
+EcoThread's purpose is to encourage more efficient software while keeping its human context visible. Reducing unnecessary computation can help reduce energy demand, but software optimization alone cannot prevent floods, predict local danger, or replace emergency services. Human safety depends on trusted local information, prepared communities, resilient infrastructure, and timely support.
+
+We do not make unsupported claims about deaths or predict when a flood will happen. The README's Nepal and UAE references are a reminder to design technology with care, humility, and respect for people affected by climate hazards.
 
 ---
 
-## 🏛️ High-Level System Definition
+## 🧊 3D-inspired system model
 
-**EcoThread** is an advanced software optimization suite designed to bridge high-performance computing with planetary sustainability. As software systems scale, exponential growth in CPU cycles translates directly to thermal waste and carbon emissions. 
+The diagram below presents EcoThread as a **conceptual, layered 3D model**: each layer is one depth in the system, and the vertical connections show how a source file moves through analysis and reporting. It is a documentation model, not a live 3D rendering or a flood-monitoring system.
 
-EcoThread solves this by treating code efficiency as an environmental metric:
-* **AST Energy Profiling:** Parses Python Abstract Syntax Trees to isolate inefficient patterns (such as redundant nested loops causing $O(n^2)$ power waste).
-* **Simulated Quantum-Level Logic:** Employs heuristic profiling to map out execution paths and eliminate invisible compute bottlenecks.
-* **The Humanity Nepal Core:** Built on the philosophy that elegance is sustainability, reducing server load directly correlates with a lower global carbon footprint.
+```text
+                              ┌──────────────────────────────┐
+                         ┌────┤ 5 · DEVELOPER WORKFLOW       │
+                         │    │ CLI / optional CI checks     │
+                    ┌────┴────┴──────────────────────────────┤
+                    │ 4 · RESULTS & IMPACT                  │
+                    │ findings · suggestions · estimates     │
+               ┌────┴────┴───────────────────────────────────┤
+               │ 3 · REFACTOR GUIDANCE                      │
+               │ reviewable, human-approved improvements    │
+          ┌────┴────┴────────────────────────────────────────┤
+          │ 2 · PYTHON AST ANALYSIS                          │
+          │ inspect code patterns and possible inefficiency │
+     ┌────┴────┴─────────────────────────────────────────────┤
+     │ 1 · SOURCE CODE                                       │
+     │ developer's Python file                              │
+     └───────────────────────────────────────────────────────┘
+             │                 │                 │
+             └────── findings flow upward ──────┘
+
+     HUMANITY LENS (applies across every layer)
+     Nepal · UAE · communities · accessibility · safety · transparency
+```
+
+### How to read the model
+
+1. **Source code:** A developer selects a Python file for analysis.
+2. **AST analysis:** EcoThread examines its structure for patterns that may cause avoidable work.
+3. **Refactor guidance:** The tool can offer ways to improve code; developers review changes before relying on them.
+4. **Results:** Findings and any impact estimates are presented as estimates, not direct measurements of emissions or energy use.
+5. **Developer workflow:** The CLI (and any configured automation) helps teams incorporate checks into their normal process.
+
+The **humanity lens** is not a separate feature or a claim that EcoThread handles emergencies. It is a design principle: make tools understandable, avoid overstating their impact, and remember that sustainability ultimately concerns people's lives and wellbeing.
 
 ---
 
-## 📂 Repository Anatomy & File Breakdown
+## 🏛️ Project overview
 
-| File / Directory | System Role & High-Level Function |
+EcoThread is a Python project for exploring code analysis and more resource-conscious software practices. It aims to identify patterns that could be made more efficient and to provide developers with useful refactoring guidance.
+
+- **Code analysis:** Inspect Python syntax and flag selected patterns for review.
+- **Refactoring guidance:** Help developers consider more efficient alternatives while retaining human review.
+- **Environmental awareness:** Treat efficiency as one part of responsible software development, alongside reliability, accessibility, and user wellbeing.
+
+> **Please verify implementation details against the code.** Any energy or carbon numbers are estimates unless measured with a documented method and appropriate runtime and hardware data.
+
+---
+
+## 📂 Repository anatomy
+
+| File / directory | Purpose |
 | :--- | :--- |
-| `main.py` | Primary CLI command processor handling `analyze` and `refactor` directives. |
-| `ecothread.py` | Core computational engine implementing the CO2 impact formula and emission metrics. |
-| `engine/` | Houses the `RefactorEngine` class, delivering automated green code refactoring suggestions. |
-| `.github/workflows/` | Contains CI/CD configurations (`main.yml`) enforcing automated "Green-Gate" checks. |
-| `LEADERBOARD.md` | Tracks global carbon savings and optimization achievements across deployments. |
-| `requirements.txt` | Dependency manifest for OpenAI integration and auxiliary packages. |
+| `main.py` | Command-line entry point, where available. |
+| `ecothread.py` | Core analysis and impact-estimation code, where available. |
+| `engine/` | Refactoring-related modules, where available. |
+| `.github/workflows/` | Repository automation and CI configuration, where available. |
+| `LEADERBOARD.md` | Project impact notes or leaderboard, if maintained. |
+| `requirements.txt` | Python dependency list. |
 
 ---
 
-## 📊 Carbon Impact Metrics (The Mallik Impact Heuristic)
+## 🚀 Getting started
 
-EcoThread quantifies sustainability by translating technical optimization into tangible ecological units:
-
-$$\text{Estimated CO}_2 \text{ Saved} \approx \frac{\text{Cycles Eliminated}}{1000} \times 0.5\text{g}$$
-
-* **Nested Loop Optimization:** ~0.5g $\text{CO}_2$ saved per 1,000 cycles eliminated.
-* **7G Standard Goal:** Driving a 1% reduction in global compute-related emissions through automated refactoring.
-
----
-
-## 🚀 Quick Start Guide
-
-### 1. Installation
-Clone the repository and deploy the environment via pip:
 ```bash
 git clone https://github.com/nirajmallik143-hub/EcoThread.git
 cd EcoThread
 pip install -r requirements.txt
 ```
 
-### 2. Basic Analysis
-Scan any Python script to pinpoint energy heat zones and power waste:
+Run the commands supported by the current CLI. For example, if available in your checkout:
+
 ```bash
 python main.py analyze your_script.py
-```
-
-### 3. AI-Powered Refactoring
-Trigger the Mallik Group AI Engine to automatically refactor and optimize your code:
-```bash
 python main.py refactor your_script.py
 ```
 
----
-
-## 💻 Live Terminal Output Example
-
-When running an analysis session using the CLI, EcoThread evaluates the target script against the 7G carbon standard:
-
-```bash
-~/antigravity-sdk-python/EcoThread $ python main.py analyze ecothread.py
-EcoThread 7G - Mallik Group Initialization...
---- Analyzing: ecothread.py ---
-Final Carbon Score: 100/100
-Optimization points found: 0
-```
+Check `python main.py --help` or the source code for the exact commands and options available in your version.
 
 ---
 
-## 🗺️ Strategic Roadmap
+## 🤝 A humane approach to climate-aware technology
 
-* **[Phase 1]** 🟢 Global Carbon Leaderboard implementation (`LEADERBOARD.md`).
-* **[Phase 2]** 🟡 Low-level language expansion (C++ and Rust optimization pipelines).
-* **[Phase 3]** 🔵 Direct integration with real-time grid energy and carbon intensity data APIs.
+- **Respect people and place:** Nepal and the UAE have different geographies, risks, languages, and emergency-response systems. Avoid treating communities as interchangeable.
+- **Do not exploit tragedy:** Communicate about loss with dignity; do not invent casualty figures or use disaster experiences as marketing claims.
+- **Be honest about limits:** EcoThread is a code-optimization project, not an early-warning, emergency-response, or disaster-prediction service.
+- **Make work useful and accessible:** Prefer clear explanations, transparent assumptions, and tools that people can inspect and improve.
+- **Support reliable local action:** In an emergency, follow the relevant local authorities and trusted humanitarian organizations.
+
+---
+
+## 🗺️ Roadmap
+
+- Improve code analysis and make its findings easier to verify.
+- Document how impact estimates are calculated and distinguish estimates from measurements.
+- Expand language support only when maintainers can test it responsibly.
+- Continue developing the humanity-centered explanation and accessibility of the project.
 
 ---
 
