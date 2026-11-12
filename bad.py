@@ -6,3 +6,4 @@ def find_duplicates(arr):
             if i != j and arr[i] == arr[j]:
                 dups.append(arr[i])
     return dups
+    
