@@ -33,6 +33,10 @@ def calculate_co2_impact(
         raise ValueError("measurement inputs must be finite numbers")
     if before_seconds < 0 or after_seconds < 0 or power_w < 0 or grid_intensity_g_per_kwh < 0:
         raise ValueError("measurement inputs cannot be negative")
+    if before_seconds < after_seconds:
+        raise ValueError(
+            "before_seconds must be greater than or equal to after_seconds for a CO2 reduction estimate"
+        )
 
     # Wh = W * seconds / 3600; convert Wh to kWh, then multiply by g CO2/kWh.
     energy_saved_kwh = power_w * (before_seconds - after_seconds) / 3_600_000
@@ -98,3 +102,4 @@ def analyze_file(
 
     status = "Review the findings; nested loops are not automatically inefficient." if findings else "No nested-loop patterns flagged by this heuristic."
     return score, len(findings), co2_saved, status
+
