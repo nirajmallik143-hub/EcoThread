@@ -1,0 +1,1 @@
+{"name":"ecothread-cloudflare","version":"0.1.0","private":true,"dependencies":{"workers-py":"*"},"devDependencies":{"pywrangler":"*"}}

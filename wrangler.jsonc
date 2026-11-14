@@ -1,0 +1,8 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "ecothread-carbon-api",
+  "main": "worker/index.py",
+  "compatibility_date": "2026-11-14",
+  "compatibility_flags": ["python_workers"],
+  "workers_dev": true
+}
