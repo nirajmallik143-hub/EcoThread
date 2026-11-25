@@ -20,7 +20,9 @@ class AnalyzeSourceTests(unittest.TestCase):
         self.assertEqual((score, findings), (100, []))
 
     def test_score_is_bounded(self):
-        source = "for a in x:\n" + "    for b in y:\n" * 12 + "        pass\n"
+        source = "".join(
+            "    " * depth + "for item in items:\n" for depth in range(13)
+        ) + "    " * 13 + "pass\n"
         score, _ = analyze_source(source)
         self.assertGreaterEqual(score, 0)
 
