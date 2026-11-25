@@ -14,7 +14,7 @@
 
 ## 🌍 Why EcoThread puts humanity first
 
-Climate and environmental risks affect people in every region, though the challenges and needs differ from place to place. In Nepal, communities can face severe monsoon rainfall, floods, and landslides. In the UAE, intense rainfall and flash flooding can also disrupt homes, roads, and essential services. These events are not just numbers or engineering problems: they affect people, families, and the communities that support them.
+Climate and environmental risks affect people in every region, though the challenges and needs differ from place to place. In Nepal, communities can face severe monsoon rainfall, floods, and landslides. In the Nepal, intense rainfall and flash flooding can also disrupt homes, roads, and essential services. These events are not just numbers or engineering problems: they affect people, families, and the communities that support them.
 
 EcoThread's purpose is to encourage more efficient software while keeping its human context visible. Reducing unnecessary computation can help reduce energy demand, but software optimization alone cannot prevent floods, predict local danger, or replace emergency services. Human safety depends on trusted local information, prepared communities, resilient infrastructure, and timely support.
 
